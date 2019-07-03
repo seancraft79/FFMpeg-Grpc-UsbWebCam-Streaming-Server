@@ -1,0 +1,17 @@
+syntax = "proto3";
+package rtspstream;
+
+service Rtspstream {
+  rpc GetStreaming(AuthToken) returns (StreamData) {}
+}
+
+message AuthToken {
+  string token = 1;
+  int32 channel = 2;
+}
+
+message StreamData {
+  string token = 1;
+  int32 channel = 2;
+  bytes image = 3;
+}
