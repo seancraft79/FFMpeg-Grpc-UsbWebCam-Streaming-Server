@@ -120,12 +120,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\GrpcStream\GrpcStream.csproj">
-      <Project>{974b34ca-90ac-4db3-adda-3bbee7796d68}</Project>
-      <Name>GrpcStream</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="FFmpeg\Plugins\avcodec-58.dll" />
     <Content Include="FFmpeg\Plugins\avdevice-58.dll" />
     <Content Include="FFmpeg\Plugins\avfilter-7.dll" />
@@ -141,7 +135,12 @@
     <Resource Include="Iamges\car4.png" />
     <Resource Include="Iamges\car5.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\..\GRPC-PROTOBUF\GrpcStream.csproj">
+      <Project>{cabfce17-e6fb-43ec-b2e3-fdfef5925b5e}</Project>
+      <Name>GrpcStream</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Grpc.Core.1.21.0\build\net45\Grpc.Core.targets" Condition="Exists('..\packages\Grpc.Core.1.21.0\build\net45\Grpc.Core.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

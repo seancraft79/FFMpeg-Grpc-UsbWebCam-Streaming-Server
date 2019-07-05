@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FFmpeg usbCam", "FFmpeg usbCam\FFmpeg usbCam.csproj", "{9F7C2F1F-7CDB-4A7F-8D27-54A753EC4BB8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcStream", "GrpcStream\GrpcStream.csproj", "{974B34CA-90AC-4DB3-ADDA-3BBEE7796D68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcStream", "..\GRPC-PROTOBUF\GrpcStream.csproj", "{CABFCE17-E6FB-43EC-B2E3-FDFEF5925B5E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{9F7C2F1F-7CDB-4A7F-8D27-54A753EC4BB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F7C2F1F-7CDB-4A7F-8D27-54A753EC4BB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F7C2F1F-7CDB-4A7F-8D27-54A753EC4BB8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{974B34CA-90AC-4DB3-ADDA-3BBEE7796D68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{974B34CA-90AC-4DB3-ADDA-3BBEE7796D68}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{974B34CA-90AC-4DB3-ADDA-3BBEE7796D68}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{974B34CA-90AC-4DB3-ADDA-3BBEE7796D68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CABFCE17-E6FB-43EC-B2E3-FDFEF5925B5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CABFCE17-E6FB-43EC-B2E3-FDFEF5925B5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CABFCE17-E6FB-43EC-B2E3-FDFEF5925B5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CABFCE17-E6FB-43EC-B2E3-FDFEF5925B5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
