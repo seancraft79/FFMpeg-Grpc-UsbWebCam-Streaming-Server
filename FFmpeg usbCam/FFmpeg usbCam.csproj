@@ -136,8 +136,8 @@
     <Resource Include="Iamges\car5.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\GRPC-PROTOBUF\GrpcStream.csproj">
-      <Project>{cabfce17-e6fb-43ec-b2e3-fdfef5925b5e}</Project>
+    <ProjectReference Include="..\DotNet-Grpc-ProtoBuf\GrpcStream.csproj">
+      <Project>{fb498b76-c8c3-48d8-92d8-c470a0120c73}</Project>
       <Name>GrpcStream</Name>
     </ProjectReference>
   </ItemGroup>
